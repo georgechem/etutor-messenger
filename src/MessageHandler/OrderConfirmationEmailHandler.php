@@ -12,6 +12,7 @@ class OrderConfirmationEmailHandler implements MessageHandlerInterface
     public function __invoke(OrderConfirmationEmail $orderConfirmationEmail)
     {
          // TODO: Implement all work here
+        sleep(5);
         echo  'Sending email now ...';
     }
 }
